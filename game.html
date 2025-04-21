@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pong Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="game">
+    <div id="score">0 - 0</div>
+    <div id="player" class="player"></div>
+    <div id="opponent" class="player"></div>
+    <div id="ball"></div>
+    <div id="controls">
+      <button id="playButton">Start Game</button>
+    </div>
+  </div>
+
+  <!-- Load main game script (as module) -->
+  <script type="module" src="script/game.js"></script>
+</body>
+</html>
